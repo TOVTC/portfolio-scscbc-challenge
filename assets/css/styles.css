@@ -1,0 +1,17 @@
+/*universal selectors*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #494949;
+    color: #ffff00;
+}
+
+body {
+    background-color: #666666;
+    color: #ffffff;
+}
