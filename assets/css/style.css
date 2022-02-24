@@ -10,6 +10,9 @@ header, footer {
     text-decoration: none;
     background-color: #494949;
     color: #ffff00;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header nav ul {
@@ -17,12 +20,32 @@ header nav ul {
 }
 
 .hero {
+    /*update image link*/
+    background-image: url("./assets/images/hero.jpg");
     color: #ffffff;
 }
 
-.hero ul {
+.hero-text {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero h2 {
+    font-size: 55px;
+    font-style: bold;
+}
+
+.hero-text ul {
     text-decoration: none;
     list-style-type: disc;
+}
+
+.hero-img {
+    /*code here*/
 }
 
 body {
