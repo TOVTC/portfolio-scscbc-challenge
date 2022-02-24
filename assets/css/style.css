@@ -7,11 +7,30 @@
 }
 
 header, footer {
+    text-decoration: none;
     background-color: #494949;
     color: #ffff00;
+}
+
+header nav ul {
+    list-style-type: disc;
+}
+
+.hero {
+    color: #ffffff;
+}
+
+.hero ul {
+    text-decoration: none;
+    list-style-type: disc;
 }
 
 body {
     background-color: #666666;
     color: #ffffff;
+}
+
+.contact ul {
+    text-decoration: none;
+    list-style-type: disc;
 }
