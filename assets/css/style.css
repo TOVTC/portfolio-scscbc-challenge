@@ -46,6 +46,7 @@ nav ul li a {
     text-decoration: none;
     margin: 5px 25px 5px 25px;
     color: #ffffff;
+    padding: 5px 5px 5px 5px;
 }
 
 footer h2 {
@@ -154,6 +155,7 @@ footer a {
 
 .projects div h4 {
     font-size: 20px;
+    padding: 30px 30px;
 }
 
 .projects div:first-child {
@@ -207,30 +209,41 @@ footer a {
     text-decoration: none;
     list-style-type: none;
     color: #ffffff;
+    padding: 5px 5px 5px 5px;
 }
 
 /*interactivity*/
 #run-buddy:hover {
     background-image: url("../images/run-buddy.png");
-    background-size: 100%;
-    background-position-y: 30%;
 }
 
 #horiseon:hover {
     background-image: url("../images/horiseon.png");
-    background-size: 100%;
 }
 
 .contact ul li a:hover {
-    text-decoration: none;
-    list-style-type: none;
-    color: #ffffff;
     border-bottom: 2px solid #ffffff;
 }
 
 nav ul li a:hover {
-    text-decoration: none;
-    margin: 5px 25px 5px 25px;
-    color: #ffffff;
     border-bottom: 2px solid #ffffff;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.contact ul li a:focus {
+    color: #ffff00;
+    border-bottom: 2px solid #ffff00;
+}
+
+nav ul li a:focus {
+    color: #ffff00;
+    border-bottom: 2px solid #ffff00;
+}
+
+footer a:focus {
+    color: #ffff00;
+    border-bottom: 2px solid #ffff00;
 }
