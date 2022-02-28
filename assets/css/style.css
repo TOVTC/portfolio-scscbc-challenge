@@ -11,6 +11,15 @@ body {
     color: #ffffff;
 }
 
+.section-title {
+    width: 10%;
+    font-size: 30px;
+    margin-right: 50px;
+    padding: 25px 25px;
+    text-align: right;
+    border-right: 2px solid #ffffff;
+}
+
 /*header and footer*/
 header, footer {
     text-decoration: none;
@@ -95,7 +104,7 @@ footer a {
 .hero-img img {
     max-height: 200px;
     margin: 5px 25px 5px 25px;
-    border-radius: 15px;
+    border-radius: 50%;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.65);
 }
 
@@ -106,13 +115,6 @@ footer a {
     margin: 50px 25px 50px 25px;
     align-items: center;
     height: 150px;
-}
-
-.about h3 {
-    width: 10%;
-    margin-right: 50px;
-    padding-right: 25px;
-    text-align: right;
 }
 
 .about p {
@@ -128,13 +130,6 @@ footer a {
     align-items: center;
     height: auto;
     justify-content: space-between;
-}
-
-.work h3 {
-    width: 10%;
-    margin-right: 50px;
-    padding-right: 25px;
-    text-align: right;
 }
 
 .projects {
@@ -157,9 +152,28 @@ footer a {
     height: 300px;
 }
 
+.projects div h4 {
+    font-size: 20px;
+}
+
 .projects div:first-child {
     width: 100%;
     height: 300px;
+}
+
+.projects div:first-child h4 {
+    font-size: 35px;
+}
+
+#run-buddy {
+    background-image: url("../images/run-buddy-shaded.png");
+    background-size: 100%;
+    background-position-y: 30%;
+}
+
+#horiseon {
+    background-image: url("../images/horiseon-shaded.png");
+    background-size: 100%;
 }
 
 .projects a {
@@ -175,15 +189,8 @@ footer a {
     flex-wrap: wrap;
     margin: 5px 25px 5px 25px;
     align-items: center;
-    height: 100px;
+    height: 150px;
     justify-content: space-between;
-}
-
-.contact h3 {
-    width: 10%;
-    margin-right: 50px;
-    padding-right: 25px;
-    text-align: right;
 }
 
 .contact-list {
@@ -200,4 +207,30 @@ footer a {
     text-decoration: none;
     list-style-type: none;
     color: #ffffff;
+}
+
+/*interactivity*/
+#run-buddy:hover {
+    background-image: url("../images/run-buddy.png");
+    background-size: 100%;
+    background-position-y: 30%;
+}
+
+#horiseon:hover {
+    background-image: url("../images/horiseon.png");
+    background-size: 100%;
+}
+
+.contact ul li a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    margin: 5px 25px 5px 25px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
