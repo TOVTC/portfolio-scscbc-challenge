@@ -111,7 +111,7 @@ footer a {
 .about {
     display: flex;
     justify-content: space-between;
-    margin: 50px 25px 50px 25px;
+    margin: 50px 75px 50px 25px;
     align-items: center;
     height: 150px;
 }
@@ -119,21 +119,20 @@ footer a {
 .about p {
     text-align: left;
     width: 80%;
-    margin-right: 55px;
 }
 
 /*projects*/
 .work {
-    margin: 5px 25px 5px 25px;
+    margin: 25px 80px 25px 25px;
     display: flex;
     align-items: center;
-    height: 800px;
+    height: 600px;
     justify-content: space-between;
 }
 
 .projects {
     width: 80%;
-    margin: 20px 55px 20px 0;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -156,7 +155,6 @@ footer a {
 
 .projects div:first-child {
     width: 100%;
-    height: 300px;
 }
 
 .projects div:first-child h4 {
@@ -184,8 +182,7 @@ footer a {
 /*contact*/
 .contact {
     display: flex;
-    flex-wrap: wrap;
-    margin: 5px 25px 5px 25px;
+    margin: 10px 50px 10px 50px;
     align-items: center;
     height: 150px;
     justify-content: space-between;
@@ -198,7 +195,6 @@ footer a {
 
 .contact ul li {
     display: inline-block;
-    margin: 5px 25px 5px 25px;
 }
 
 .contact ul li a{
@@ -300,7 +296,7 @@ footer a:focus {
     }
 
     .about {
-        margin: 50px 25px 50px 25px;
+        margin: 50px 40px 50px 25px;
         align-items: flex-start;
         height: auto;
     }
@@ -311,6 +307,11 @@ footer a:focus {
         line-height: 1.3;
     }
 
+    .work {
+        height: 550px;
+        margin: 25px 40px 25px 25px;
+    }   
+
     .projects h4 {
         font-size: 15px;
         padding: 15px 15px;
@@ -318,9 +319,31 @@ footer a:focus {
 
     .projects div:first-child h4 {
         font-size: 25px;
+    } 
+
+    .contact {
+        height: 120px;
+        margin: 10px 40px 10px 25px;
+    }
+    
+    .contact-list {
+        width: 80%;
+        text-align: right;
+    }
+    
+    .contact ul li {
+        margin: 5px 25px 5px 25px;
+        font-size: 15px;
+    }
+    
+    footer h2 {
+        font-size: 18px;
     }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
+    footer a {
+        font-size: 15px;
+    }
+/* MEDIA QUERY FOR TABLETS AND SMALLER NEED TO EDIT*/
 @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
@@ -343,7 +366,7 @@ footer a:focus {
         flex: 100%
     }
 }
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER NEED TO EDIT */
 @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%
