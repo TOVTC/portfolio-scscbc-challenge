@@ -240,6 +240,7 @@ footer a {
         border-right: none;
     }
 }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
