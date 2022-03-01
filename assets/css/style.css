@@ -426,5 +426,61 @@ footer a:focus {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
+    header h1 a {
+        font-size: 80%;
+    }
 
+    header nav ul {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 3px 10px;
+    }
+
+    nav ul li a {
+        padding: 3px;
+    }
+
+    .hero-img img {
+        max-height: 125px;
+        border-radius: 15px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 11px;
+    }
+
+    .projects div {
+        margin: 10px;
+    }
+
+    .projects h4 {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .projects div:first-child h4 {
+        font-size: 20px;
+    } 
+
+    .contact ul li {
+        margin: 5px;
+    }
+    
+    .contact ul li a{
+        padding: 3px;
+    }
+    
+    footer {
+        height: 80px;
+    }
 }
