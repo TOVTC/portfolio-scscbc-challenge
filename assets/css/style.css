@@ -37,6 +37,13 @@ header h1 a {
     color: #ffffff;
 }
 
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: #494949;
+}
+
 nav ul li {
     display: inline-block;
     margin: 5px 25px 5px 25px;
@@ -114,6 +121,7 @@ footer a {
     margin: 50px 80px 50px 25px;
     align-items: center;
     height: 150px;
+    scroll-margin-top: 75px;
 }
 
 .about p {
@@ -241,6 +249,12 @@ footer a:focus {
     border-bottom: 1px solid #ffd000ea;
 }
 
+/* Border Formatting is Hard (Removes borders when overlap occurs before first standard breakpoint) */
+@media screen and (max-width: 1250px) and (min-width: 980px) {
+    .section-title {
+        border-right: none;
+    }
+}
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
@@ -300,6 +314,7 @@ footer a:focus {
         margin: 50px 40px 50px 25px;
         align-items: center;
         height: auto;
+        scroll-margin-top: 115px;
     }
     
     .about p {
@@ -390,6 +405,7 @@ footer a:focus {
         margin: 35px 15px 15px 15px;
         align-items: center;
         height: auto;
+        scroll-margin-top: 100px;
     }
 
     .about p {
