@@ -17,7 +17,7 @@ This website was created to host a collection of my past and current web develop
 Contact repository author.
 
 ## Authors and Acknowledgment
-Edited with ❤️ by TOVTC  
+Made with ❤️ by TOVTC  
 
 Featuring sunflower background image by Ameer Mohamed via Pexels  
 
