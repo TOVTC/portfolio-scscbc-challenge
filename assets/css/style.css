@@ -172,6 +172,11 @@ footer a {
     font-size: 35px;
 }
 
+#weathcon {
+    background-image: url("../images/weathcon-shaded.png");
+    background-size: 100%;
+}
+
 #run-buddy {
     background-image: url("../images/run-buddy-shaded.png");
     background-size: 100%;
@@ -217,6 +222,14 @@ footer a {
 }
 
 /*interactivity*/
+#weathcon:hover {
+    background-image: url("../images/weathcon.png");
+}
+
+#horiseon:hover {
+    background-image: url("../images/horiseon.png");
+}
+
 #run-buddy:hover {
     background-image: url("../images/run-buddy.png");
 }
